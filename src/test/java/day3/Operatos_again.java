@@ -28,6 +28,4 @@ public class Operatos_again {
         String res=(person_age>=18)? "Eligible": "Not Eligible";
         System.out.println(res);
     }
-
-
 }
