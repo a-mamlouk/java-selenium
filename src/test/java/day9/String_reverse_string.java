@@ -1,6 +1,6 @@
 package day9;
 
-public class String_immutability {
+public class String_reverse_string {
     public static void main(String[] args){
         // Method : length(), charAT()
         String S="Welcome";
@@ -10,6 +10,7 @@ public class String_immutability {
             rev=rev+S.charAt(i);
         }
         System.out.println("Reverse string is "+rev);
+        System.out.println("---------------------------------------------------------------------------------------- ");
 
         // Method 2:
         String S2="Welcome";
@@ -20,5 +21,15 @@ public class String_immutability {
             rev2=rev2+a[i];
         }
         System.out.println("Reverse string is "+rev2);
+        System.out.println("---------------------------------------------------------------------------------------- ");
+
+        // Method 3
+        StringBuffer S3= new StringBuffer( "Welcome ");
+        System.out.println(S3);
+        System.out.println("Reverse string using reverse "+S3.reverse());
+
+        // method 4
+        StringBuilder S4 = new StringBuilder("Welcome");
+
     }
 }
